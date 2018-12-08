@@ -1,11 +1,11 @@
-package main
+package task3
 
 import (
 	"fmt"
 	"github.com/panic-torra/go-course2018/workshop1/task3/duck"
 )
 
-func main() {
+func task3() {
 	flyingDuck := duck.Duck{FlyBehavior: duck.FlyWithWings{}, QuackBehavior: duck.NoQuack}
 	mallocDuck := duck.Duck{FlyBehavior: duck.NoFly{}, QuackBehavior: duck.NoQuack}
 	rubberDuck := duck.NewRubberDuck()
